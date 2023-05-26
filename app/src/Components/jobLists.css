@@ -1,0 +1,69 @@
+@import url("https://fonts.googleapis.com/css2?family=Rajdhani:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400&family=Special+Elite&display=swap');
+
+
+.jobListsDiv {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    height: auto;
+    margin: 0 20px;
+  }
+  
+  .jobListDiv {
+    display: flex;
+    flex-direction: column; 
+    width: calc(33.33% - 20px);
+    margin-bottom: 20px;
+  }
+  
+  .jobImage {
+    width: 100%;
+    height: 250px;
+    border-radius: 10px;
+    object-fit: cover;
+    cursor: pointer;
+    transition: transform 0.5s ease-in-out;
+  }
+
+  h3{
+    cursor: pointer;
+    font-family: 'Special Elite';
+    font-weight: 600;
+    color: rgb(30, 105, 80);
+  }
+  
+  img:hover {
+    transform: scale(1.05);
+  }
+
+  .jobDisc{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+  }
+
+  .jobReq{
+    margin-right: 30px;
+    cursor: pointer;
+    font-family: 'Rajdhani';
+    color: rgb(11, 51, 38);
+  }
+
+  .loadingDiv{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(30, 105, 80);
+  }
+  
+  @media screen and (max-width: 767px) {
+    .jobListDiv {
+      width: calc(50% - 20px);
+    }
+  }
+  

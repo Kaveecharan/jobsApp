@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css2?family=Rajdhani:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap');
+
+.accForm {
+    display: flex;
+    flex-direction: column;
+    background: #fff;
+    box-shadow: rgba(33.73%, 77.25%, 58.82%, 0.44) 0px 3px 8px;
+    padding: 10px 10px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    padding: 30px 50px;
+    transform: translate(-50%, -50%);
+  }
+
+  h1{
+    color: #56C596;
+  }
+  
+  input {
+    padding: 10px 5px;
+    margin-bottom: 20px;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    font-family: 'Rajdhani';
+    font-size: 16px;
+    color: #329D9C;
+    border-radius: 8px;
+    box-shadow: rgba(53, 136, 101, 0.44) 0px 3px 8px;
+    backdrop-filter: blur(4px);
+    transition: 0.2s;
+  }
+
+  input:hover {
+    box-shadow: rgba(53, 136, 101, 0.44) 6px 3px 8px;
+    backdrop-filter: blur(8px);
+  }
+  
+  button {
+    padding: 6px 25px;
+    background-color: #56C596;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-family: 'Rajdhani';
+    transition: 0.4s;
+  }
+
+  button:hover{
+    letter-spacing: 1px;
+  }
+
+  button:disabled{
+    cursor: not-allowed;
+    background-color: #b7e5d2;
+  }
+ 
+  .formLabel{
+    font-family: 'Rajdhani';
+    color: #56C596;
+  }

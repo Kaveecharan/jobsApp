@@ -1,0 +1,33 @@
+@import url("https://fonts.googleapis.com/css2?family=Rajdhani:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400&family=Special+Elite&display=swap');
+
+.jobListCat{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* #CFF4D2 #329D9C #56C596 #7BE496 #CFF4D2 #2FC482 */
+
+  
+  .category {
+    margin: 40px 30px;
+    cursor: pointer;
+    color: #17382b;
+    font-size: 21px;
+    font-weight: 600;
+    font-family: 'Josefin Sans';
+    transition: 0.2s ease-in-out;
+  }
+
+  .category:hover{
+    color: #56C596;
+  }
+  
+  .category.selected {
+    text-decoration: underline;
+  }
+  

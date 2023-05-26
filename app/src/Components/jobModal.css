@@ -1,0 +1,101 @@
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+}
+
+.modal-content {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  width: 400px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  position: relative;
+}
+
+.modal-content h3 {
+  margin-top: 0;
+}
+
+.modal-content form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  background: #fff;
+}
+
+.modal-content input {
+  padding: 8px;
+  width: 90%;
+  border: none;
+  outline: none;
+  margin: 10px 0;
+}
+
+.modal-close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+}
+
+.modal-buttons {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 20px;
+}
+
+.modal-buttons button {
+  padding: 6px 25px;
+  background-color: #56C596;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  font-family: 'Rajdhani';
+  transition: 0.4s;
+}
+
+.modal-buttons button:last-child {
+  background-color: #c55656;
+  margin-left: 20px;
+}
+
+.modal-buttons button:disabled {
+  cursor: not-allowed;
+  background: #a1e0c6;
+}
+
+select {
+  width: 50%;
+  height: 40px;
+  font-size: 16px;
+  padding: 12px 8px;
+  color: black;
+  box-shadow: rgba(53, 136, 101, 0.44) 0px 3px 8px;
+  backdrop-filter: blur(4px);
+  border: none;
+  outline: none;
+  margin: 20px 0;
+  font-family: 'Rajdhani';
+}
+
+select option {
+  padding: 8px 16px;
+  background-color: #eee;
+  color: black;
+}
+
+select option:hover {
+  background-color: #ddd;
+}
+
+select option:selected {
+  background-color: #56C596;
+  color: white;
+}
